@@ -1,0 +1,93 @@
+{
+  "name": "Mimesis Light",
+  "dark": false,
+  "author": "Alexander Dyriavin",
+  "editorScheme": "/theme/mimesis.xml",
+  "ui": {
+    "*": {
+      "selectionBackground": "#0060df",
+      "selectionBackgroundInactive": "#d1d5da",
+      "selectionInactiveBackground": "#d1d5da",
+      "disabledForeground": "#6a737d",
+      "disabledText": "#6a737d",
+      "inactiveForeground": "#6a737d",
+      "infoForeground": "#6a737d",
+      "modifiedItemForeground": "#005ad9",
+      "acceleratorSelectionForeground": "#FFFFFF",
+      "separatorColor": "#d7d7db",
+      "separatorForeground": "#999999"
+    },
+    "Borders": {
+      "color": "#d7d7db",
+      "ContrastBorderColor": "#d7d7db"
+    },
+    "Button": {
+      "shadowColor": "#A6A6A620",
+      "startBorderColor": "#b1b1b3",
+      "endBorderColor": "#b1b1b3",
+      "default": {
+        "foreground": "#FFFFFF",
+        "startBackground": "#45a1ff",
+        "endBackground": "#0a84ff",
+        "startBorderColor": "#0060df",
+        "endBorderColor": "#003eaa",
+        "shadowColor": "#A6A6A650",
+        "focusedBorderColor": "#0a84ff4d"
+      }
+    },
+    "ComboBox": {
+      "background": "#FFFFFF",
+      "nonEditableBackground": "#FFFFFF",
+      "ArrowButton.background": "#d1d5da11"
+    },
+    "ComboBoxButton.background": "#FFFFFF",
+    "CompletionPopup": {
+      "selectionBackground": "#0a84ff4d",
+      "selectionInactiveBackground": "#d1d5da"
+    },
+    "Component.borderColor": "#b1b1b3",
+    "DefaultTabs.background": "#F2F2F2",
+    "EditorTabs.underlinedTabBackground": "#ffffff",
+    "Editor": {
+      "background": "#ededf0",
+      "foreground": "#959da5",
+      "shortcutForeground": "#003eaa"
+    },
+    "Label.errorForeground": "#FF3B30",
+    "Link": {
+      "activeForeground": "#0060df",
+      "hoverForeground": "#0060df",
+      "pressedForeground": "#0060df",
+      "visitedForeground": "#0060df",
+      "secondaryForeground": "#45a1ff"
+    },
+    "Notification": {
+      "borderColor": "#d7d7db"
+    },
+    "Menu.borderColor": "#d9d9d9",
+    "Panel.background": "#F2F2F2",
+    "PasswordField.background": "#FFFFFF",
+    "Popup": {
+      "separatorColor": "#d9d9d9",
+      "Advertiser.borderColor": "#d7d7db",
+      "borderColor": "#adadad"
+    },
+    "ProgressBar": {
+      "trackColor": "#d7d7db",
+      "progressColor": "#1E82E6",
+      "indeterminateStartColor": "#91C5F2",
+      "indeterminateEndColor": "#1E82E6"
+    },
+    "StatusBar.borderColor": "#d7d7db",
+    "ToolWindow.Header.inactiveBackground": "#F2F2F2",
+    "Tree.foreground": "#24292e",
+    "Tree.rowHeight": 20
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Border.Default": "#b0b0b0",
+      "Checkbox.Background.Selected": "#4F9EE3",
+      "Checkbox.Border.Selected": "#4B97D9"
+    }
+  }
+}
