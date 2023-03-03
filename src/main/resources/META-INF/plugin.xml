@@ -1,13 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.dyriavin.mimesistheme</id>
-    <name>Mimesis-theme</name>
+    <name>Mimesis Theme</name>
     <vendor>dyriavin</vendor>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.ultimate</depends>
     <depends>com.jetbrains.php</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.github.dyriavin.mimesistheme" path="/theme/mimesis.theme.json"/>
+        <themeProvider id="ae0c01b3-f7cc-4acd-9d15-f5f87c0d631c" path="/theme/mimesis.theme.json"/>
     </extensions>
 </idea-plugin>
