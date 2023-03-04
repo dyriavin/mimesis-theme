@@ -38,7 +38,7 @@
     "ComboBox": {
       "background": "#FFFFFF",
       "nonEditableBackground": "#FFFFFF",
-      "ArrowButton.background": "#d1d5da11"
+      "ArrowButton.background": "#fafafa"
     },
     "ComboBoxButton.background": "#FFFFFF",
     "CompletionPopup": {
@@ -49,17 +49,17 @@
     "DefaultTabs.background": "#F2F2F2",
     "EditorTabs.underlinedTabBackground": "#ffffff",
     "Editor": {
-      "background": "#ededf0",
-      "foreground": "#959da5",
-      "shortcutForeground": "#003eaa"
+      "background": "#cccccc",
+      "foreground": "#737373",
+      "shortcutForeground": "#296C96"
     },
-    "Label.errorForeground": "#FF3B30",
+    "Label.errorForeground": "#D70022",
     "Link": {
       "activeForeground": "#0060df",
       "hoverForeground": "#0060df",
       "pressedForeground": "#0060df",
       "visitedForeground": "#0060df",
-      "secondaryForeground": "#45a1ff"
+      "secondaryForeground": "#63B0FF"
     },
     "Notification": {
       "borderColor": "#d7d7db"
@@ -74,13 +74,13 @@
     },
     "ProgressBar": {
       "trackColor": "#d7d7db",
-      "progressColor": "#1E82E6",
+      "progressColor": "#0A84FF",
       "indeterminateStartColor": "#91C5F2",
-      "indeterminateEndColor": "#1E82E6"
+      "indeterminateEndColor": "#63B0FF"
     },
-    "StatusBar.borderColor": "#d7d7db",
+    "StatusBar.borderColor": "#D1D1D1",
     "ToolWindow.Header.inactiveBackground": "#F2F2F2",
-    "Tree.foreground": "#24292e",
+    "Tree.foreground": "#212C31",
     "Tree.rowHeight": 20
   },
   "icons": {
