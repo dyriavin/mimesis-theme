@@ -2,11 +2,16 @@
 <idea-plugin>
     <id>com.github.dyriavin.mimesistheme</id>
     <name>Mimesis Theme</name>
-    <vendor>dyriavin</vendor>
-
+    <vendor
+            email="dyriavin.code@gmail.com"
+            url="https://github.com/dyriavin/mimesis-theme"
+    >
+        Alexander Dyriavin
+    </vendor>
+    <description><![CDATA[Mimesis Theme<br/><br/>To install:<ul><li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li><li>Restart IDE</li><li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li></ul><br/>
+    ]]>
+    </description>
     <depends>com.intellij.modules.platform</depends>
-    <depends>com.intellij.modules.ultimate</depends>
-    <depends>com.jetbrains.php</depends>
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="ae0c01b3-f7cc-4acd-9d15-f5f87c0d631c" path="/theme/mimesis.theme.json"/>
     </extensions>
