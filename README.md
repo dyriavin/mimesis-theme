@@ -1,8 +1,8 @@
 # mimesis-theme
 
 ![Build](https://github.com/dyriavin/mimesis-theme/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/21180-mimesis-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/21180-mimesis-theme)
 
 <!-- Plugin description -->
 Mimesis - color scheme for Jetbrains products. Is a light theme that offers a clean and elegant look.
