@@ -26,10 +26,10 @@
       "startBorderColor": "#b1b1b3",
       "endBorderColor": "#b1b1b3",
       "default": {
-        "foreground": "#FFFFFF",
-        "startBackground": "#45a1ff",
-        "endBackground": "#0a84ff",
-        "startBorderColor": "#0060df",
+        "foreground": "#EDEDED",
+        "startBackground": "#003eaa",
+        "endBackground": "#003eaa",
+        "startBorderColor": "#003eaa",
         "endBorderColor": "#003eaa",
         "shadowColor": "#A6A6A650",
         "focusedBorderColor": "#0a84ff4d"
@@ -75,8 +75,8 @@
     "ProgressBar": {
       "trackColor": "#d7d7db",
       "progressColor": "#0A84FF",
-      "indeterminateStartColor": "#91C5F2",
-      "indeterminateEndColor": "#63B0FF"
+      "indeterminateStartColor": "#0060DF",
+      "indeterminateEndColor": "#0060DF"
     },
     "StatusBar.borderColor": "#D1D1D1",
     "ToolWindow.Header.inactiveBackground": "#F2F2F2",

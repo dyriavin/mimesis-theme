@@ -750,11 +750,7 @@
                 <option name="FOREGROUND" value="722291" />
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="d70022" />
-            </value>
-        </option>
+        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
         <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -990,11 +986,6 @@
                 <option name="FOREGROUND" value="737373" />
                 <option name="BACKGROUND" value="fffef2" />
                 <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="TS.MODULE_NAME">
-            <value>
-                <option name="FOREGROUND" value="d70022" />
             </value>
         </option>
         <option name="TS.TYPE_PARAMETER">
