@@ -14,5 +14,6 @@
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="ae0c01b3-f7cc-4acd-9d15-f5f87c0d631c" path="/theme/mimesis.theme.json"/>
+        <themeProvider id="ae0c01b3-f72c-4acd-9d15-f5f87c0d631c" path="/theme/mimesis-dark.theme.json"/>
     </extensions>
 </idea-plugin>
