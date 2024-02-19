@@ -1,10 +1,9 @@
 <scheme name="Mimesis Light" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="created">2023-03-02T22:09:16</property>
+        <property name="created">2024-02-19T11:38:53</property>
         <property name="ide">idea</property>
-        <property name="ideVersion">2022.3.2.0.0</property>
-        <property name="modified">2023-03-02T22:09:24</property>
-        <property name="originalScheme">Mimesis</property>
+        <property name="ideVersion">2023.3.4.0.0</property>
+        <property name="modified">2024-02-19T11:39:07</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="7fc784" />
@@ -57,8 +56,8 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="f7e2cb" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="APACHE_CONFIG.IDENTIFIER">
             <value>
                 <option name="FOREGROUND" value="ff0039" />
@@ -482,7 +481,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="293338" />
+                <option name="FOREGROUND" value="2275" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -536,7 +535,7 @@
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="293338" />
+                <option name="FOREGROUND" value="454545" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -734,7 +733,7 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="JS.EXPORTED.FUNCTION">
             <value>
                 <option name="FOREGROUND" value="6504" />
@@ -765,11 +764,6 @@
         <option name="KOTLIN_EXCLEXCL">
             <value>
                 <option name="FOREGROUND" value="2a3434" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
-            <value>
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -944,8 +938,8 @@
             </value>
         </option>
         <option name="SQL_OUTER_QUERY_COLUMN" baseAttributes="SQL_COLUMN" />
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="5a0002" />
