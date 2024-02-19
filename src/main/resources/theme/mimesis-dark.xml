@@ -1,9 +1,9 @@
 <scheme name="Mimesis dark" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="created">2024-02-19T14:10:14</property>
+        <property name="created">2023-08-10T13:05:37</property>
         <property name="ide">idea</property>
-        <property name="ideVersion">2023.3.4.0.0</property>
-        <property name="modified">2024-02-19T14:10:19</property>
+        <property name="ideVersion">2023.2.0.0</property>
+        <property name="modified">2023-08-10T13:05:48</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="549159" />
@@ -404,7 +404,7 @@
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
-                <option name="FOREGROUND" value="b28fb2" />
+                <option name="FOREGROUND" value="99c0e8" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
@@ -455,7 +455,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="88adf7" />
+                <option name="FOREGROUND" value="e9ecec" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -481,9 +481,9 @@
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="bf80d9" />
+                <option name="FOREGROUND" value="bcbec4" />
                 <option name="EFFECT_COLOR" value="f3fff2" />
-                <option name="EFFECT_TYPE" value="2" />
+                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_PARAMETER">
@@ -500,7 +500,7 @@
         </option>
         <option name="DEFAULT_STATIC_FIELD">
             <value>
-                <option name="FOREGROUND" value="b28fb2" />
+                <option name="FOREGROUND" value="99c0e8" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_METHOD">
