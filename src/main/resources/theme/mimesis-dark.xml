@@ -72,8 +72,8 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="a44900" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="db5860" />
@@ -623,17 +623,6 @@
                 <option name="FOREGROUND" value="5c92ff" />
             </value>
         </option>
-        <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-        <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-        <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-        <option name="GO_COMMENT_REFERENCE" baseAttributes="DEFAULT_LINE_COMMENT" />
-        <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-        <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
-        <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-        <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GRAMMAR_ERROR">
             <value>
                 <option name="EFFECT_COLOR" value="e99ba0" />
@@ -737,7 +726,6 @@
             </value>
         </option>
         <option name="JavaScript:INJECTED_LANGUAGE_FRAGMENT" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-        <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER" baseAttributes="KOTLIN_PARAMETER" />
         <option name="KOTLIN_COLON">
             <value>
                 <option name="FOREGROUND" value="e354af" />
@@ -759,7 +747,6 @@
                 <option name="FOREGROUND" value="e354af" />
             </value>
         </option>
-        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
         <option name="KOTLIN_MUTABLE_VARIABLE">
             <value>
                 <option name="EFFECT_COLOR" value="84868c" />
@@ -771,7 +758,6 @@
                 <option name="FOREGROUND" value="b1b1b3" />
             </value>
         </option>
-        <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="KOTLIN_SMART_CAST_RECEIVER">
             <value>
                 <option name="BACKGROUND" value="1a3b2d" />
@@ -787,7 +773,6 @@
                 <option name="BACKGROUND" value="1a3b2d" />
             </value>
         </option>
-        <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
         <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="LINE_FULL_COVERAGE">
             <value>
@@ -900,8 +885,6 @@
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
-        <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
         <option name="PHP_EXEC_COMMAND_ID">
             <value>
                 <option name="FOREGROUND" value="7ecc49" />
@@ -913,24 +896,16 @@
                 <option name="FOREGROUND" value="d1d1d1" />
             </value>
         </option>
-        <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="PHP_VAR_VAR">
             <value>
                 <option name="FOREGROUND" value="bf80d9" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
-        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
-        <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
-        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-        <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.KEY" baseAttributes="" />
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
         <option name="REGEXP.BRACES" baseAttributes="DEFAULT_BRACES" />
         <option name="REGEXP.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
         <option name="REGEXP.CHAR_CLASS" baseAttributes="DEFAULT_ENTITY" />
@@ -956,7 +931,7 @@
         </option>
         <option name="SQL_OUTER_QUERY_COLUMN" baseAttributes="SQL_COLUMN" />
         <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
         <option name="Static method access">
             <value>
                 <option name="FOREGROUND" value="c77dba" />
@@ -1023,7 +998,7 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="f3d514" />
@@ -1043,10 +1018,10 @@
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
-        <option name="VELOCITY_DIRECTIVE" baseAttributes="DEFAULT_KEYWORD" />
-        <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-        <option name="VELOCITY_REFERENCE" baseAttributes="DEFAULT_ATTRIBUTE" />
-        <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+        <option name="VELOCITY_DIRECTIVE" baseAttributes="" />
+        <option name="VELOCITY_KEYWORD" baseAttributes="" />
+        <option name="VELOCITY_REFERENCE" baseAttributes="" />
+        <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="" />
         <option name="WARNING_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="db5860" />
@@ -1085,10 +1060,6 @@
         <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
         <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
-        <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
-        <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
-        <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="org.rust.LIFETIME">
             <value>
                 <option name="FOREGROUND" value="51c9b7" />
