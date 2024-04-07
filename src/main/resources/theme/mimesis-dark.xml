@@ -1,6 +1,5 @@
 <scheme name="Mimesis dark" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="created">2023-08-10T13:05:37</property>
         <property name="ide">idea</property>
         <property name="ideVersion">2023.2.0.0</property>
         <property name="modified">2023-08-10T13:05:48</property>
@@ -310,11 +309,12 @@
         <option name="DEFAULT_ATTRIBUTE">
             <value>
                 <option name="FOREGROUND" value="e354af" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="f3fff2" />
+                <option name="FOREGROUND" value="f8e7cc" />
                 <option name="BACKGROUND" value="2a3434" />
             </value>
         </option>
@@ -346,25 +346,32 @@
         <option name="DEFAULT_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="21a793" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="FONT_TYPE" value="3" />
+                <option name="EFFECT_COLOR" value="95c8fc" />
+                <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
-                <option name="FOREGROUND" value="b1b1b3" />
+                <option name="FOREGROUND" value="fff8e1" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
+                <option name="FOREGROUND" value="999900" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
-            <value />
+            <value>
+                <option name="FOREGROUND" value="f2b3ff" />
+            </value>
         </option>
         <option name="DEFAULT_DOC_MARKUP">
-            <value />
+            <value>
+                <option name="FOREGROUND" value="389fd6" />
+            </value>
         </option>
         <option name="DEFAULT_DOT">
             <value>
@@ -389,6 +396,7 @@
         <option name="DEFAULT_GLOBAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="bf80d9" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
@@ -439,8 +447,8 @@
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="f3fff2" />
-                <option name="BACKGROUND" value="293338" />
+                <option name="FOREGROUND" value="f8e7cc" />
+                <option name="BACKGROUND" value="2a3434" />
             </value>
         </option>
         <option name="DEFAULT_LOCAL_VARIABLE">
@@ -450,12 +458,13 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="51c9b7" />
+                <option name="FOREGROUND" value="81c8e1" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="e9ecec" />
+                <option name="FOREGROUND" value="e6f3ff" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -465,7 +474,7 @@
         </option>
         <option name="DEFAULT_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="bf80d9" />
+                <option name="FOREGROUND" value="fe94ed" />
             </value>
         </option>
         <option name="DEFAULT_PARENTHS">
@@ -481,9 +490,9 @@
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="bcbec4" />
+                <option name="FOREGROUND" value="f0aeba" />
                 <option name="EFFECT_COLOR" value="f3fff2" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_PARAMETER">
@@ -515,12 +524,15 @@
             </value>
         </option>
         <option name="DEFAULT_TAG">
-            <value />
+            <value>
+                <option name="FONT_TYPE" value="2" />
+            </value>
         </option>
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
             <value>
-                <option name="FOREGROUND" value="f3fff2" />
-                <option name="BACKGROUND" value="293338" />
+                <option name="FOREGROUND" value="e9ecec" />
+                <option name="BACKGROUND" value="202020" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -531,8 +543,7 @@
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="b1b1b3" />
-                <option name="BACKGROUND" value="a4000f" />
+                <option name="FOREGROUND" value="db5860" />
                 <option name="EFFECT_COLOR" value="c9d1d9" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
@@ -616,6 +627,7 @@
         <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+        <option name="GO_COMMENT_REFERENCE" baseAttributes="DEFAULT_LINE_COMMENT" />
         <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -629,28 +641,10 @@
             </value>
         </option>
         <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-        <option name="HTML_ATTRIBUTE_VALUE">
-            <value>
-                <option name="FOREGROUND" value="7ecc49" />
-            </value>
-        </option>
-        <option name="HTML_CODE">
-            <value>
-                <option name="FOREGROUND" value="c9d1d9" />
-                <option name="BACKGROUND" value="202020" />
-            </value>
-        </option>
+        <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
         <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
-        <option name="HTML_ENTITY_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="56a8f5" />
-            </value>
-        </option>
-        <option name="HTML_TAG">
-            <value>
-                <option name="FOREGROUND" value="d5b778" />
-            </value>
-        </option>
+        <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+        <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
         <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
         <option name="HTTP_REQUEST_PARAMETER_NAME">
             <value>
@@ -674,7 +668,11 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="db5860" />
+            </value>
+        </option>
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="293338" />
@@ -738,14 +736,11 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="JavaScript:INJECTED_LANGUAGE_FRAGMENT" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+        <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER" baseAttributes="KOTLIN_PARAMETER" />
         <option name="KOTLIN_COLON">
             <value>
                 <option name="FOREGROUND" value="e354af" />
-            </value>
-        </option>
-        <option name="KOTLIN_CONSTRUCTOR">
-            <value>
-                <option name="FOREGROUND" value="db5860" />
             </value>
         </option>
         <option name="KOTLIN_DOUBLE_COLON">
@@ -852,12 +847,6 @@
                 <option name="FOREGROUND" value="d7b600" />
             </value>
         </option>
-        <option name="MAGIC_MEMBER_ACCESS">
-            <value>
-                <option name="FOREGROUND" value="85c956" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
         <option name="MARKDOWN_IMAGE">
             <value />
         </option>
@@ -882,16 +871,13 @@
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="454545" />
+                <option name="BACKGROUND" value="32f62" />
                 <option name="FONT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="e9f5e6" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="NG.EXPANSION_FORM_DELIMITERS">
-            <value>
-                <option name="FOREGROUND" value="21a793" />
-            </value>
-        </option>
-        <option name="NG.SCRIPT_DELIMITERS">
             <value>
                 <option name="FOREGROUND" value="21a793" />
             </value>
@@ -927,16 +913,7 @@
                 <option name="FOREGROUND" value="d1d1d1" />
             </value>
         </option>
-        <option name="PHP_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="bf80d9" />
-            </value>
-        </option>
-        <option name="PHP_PRIMITIVE_TYPE_HINT">
-            <value>
-                <option name="FOREGROUND" value="db5860" />
-            </value>
-        </option>
+        <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="PHP_VAR_VAR">
             <value>
@@ -1004,7 +981,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="e9ecec" />
+                <option name="FOREGROUND" value="f7faff" />
                 <option name="BACKGROUND" value="202020" />
             </value>
         </option>
@@ -1035,7 +1012,7 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="b1b1b3" />
+                <option name="FOREGROUND" value="f8e7cc" />
                 <option name="BACKGROUND" value="293338" />
                 <option name="FONT_TYPE" value="2" />
             </value>
@@ -1046,12 +1023,7 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="51c9b7" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="f3d514" />
@@ -1117,7 +1089,6 @@
         <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
         <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="org.rust.LIFETIME">
             <value>
                 <option name="FOREGROUND" value="51c9b7" />
@@ -1128,13 +1099,11 @@
                 <option name="FOREGROUND" value="db5860" />
             </value>
         </option>
-        <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="org.rust.MUT_BINDING">
             <value>
                 <option name="FOREGROUND" value="bf80d9" />
             </value>
         </option>
-        <option name="org.rust.MUT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="org.rust.VARIABLE">
             <value>
                 <option name="FOREGROUND" value="bf80d9" />
